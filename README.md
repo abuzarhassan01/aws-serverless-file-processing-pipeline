@@ -31,3 +31,15 @@ A robust, production-grade, event-driven data ingestion and processing pipeline 
 * **Cost Model:** 100% serverless, operating within the **AWS Free Tier** with zero idle compute costs.
 
 ---
+
+---
+
+## 🚀 How to Test & Deploy
+
+### 1. Local Logic Testing
+You can test the parsing and data sanitization logic locally using a mock S3 event payload in Python:
+```bash
+# Ensure boto3 and dependencies are installed
+pip install boto3
+
+# Run a local test script or invoke the handler with sample data inside sample_data/
