@@ -1,4 +1,5 @@
-<img width="1024" height="396" alt="image" src="[https://github.com/user-attachments/assets/35bf0499-55af-450b-a5e5-9a821b08046f](https://github.com/user-attachments/assets/35bf0499-55af-450b-a5e5-9a821b08046f)" />
+<img width="1024" height="396" alt="image" src="https://github.com/user-attachments/assets/b4912bee-cb53-471b-88e3-9d717c6e7eef" />
+
 
 # 🚀 Event-Driven Serverless File Processing Pipeline on AWS
 
