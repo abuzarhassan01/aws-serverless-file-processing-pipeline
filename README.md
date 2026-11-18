@@ -9,7 +9,6 @@ A robust, production-grade, event-driven data ingestion and processing pipeline 
 
 ## 🏗️ Architecture & Flow
 
-![Architecture Diagram](https://github.com/user-attachments/assets/016fd436-jpeg)
 
 1. **Ingestion:** Raw JSON (`test.json`) or multi-row CSV batch datasets (`raw_user_events_500.csv`) are uploaded into the S3 `input/` folder[cite: 6].
 2. **Trigger:** S3 Event Notifications automatically push an event payload to invoke an **AWS Lambda** function.
@@ -32,13 +31,3 @@ A robust, production-grade, event-driven data ingestion and processing pipeline 
 * **Cost Model:** 100% serverless, operating within the **AWS Free Tier** with zero idle compute costs.
 
 ---
-
-## 📂 Repository Structure
-```text
-aws-serverless-file-processing-pipeline/
-├── sample_data/
-│   ├── raw_user_events_500.csv    # 500-row stress-test CSV dataset
-│   └── test.json                  # Sample structured JSON payload
-├── .gitignore                     # Excludes local cache and temp files
-├── README.md                      # Project documentation
-└── lambda_function.py             # Core Python parsing & sanitization logic
